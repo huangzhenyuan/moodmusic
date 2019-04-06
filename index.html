@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>心情音乐</title>
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Author" content="黄振远" />
+    <meta name="Copyright" content="黄振远" />
+    <meta name="keywords" content="喜悦,愤怒,悲伤,恐惧" />
+    <meta name="description" content="这是一个能调节喜悦,愤怒,悲伤,恐惧情绪的音乐网站" />
+    <link rel="Shortcut Icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script src="https://cdn.bootcss.com/hammer.js/2.0.8/hammer.min.js"></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/Vue.min.js"></script>
+    <script type="text/javascript" src="json/musicmessage.json" ></script>
+</head>
+<body>
+<div class="header">
+	<div class="nav">
+		<ul>
+			<li>
+				<div><img src="img/logo.png" alt="logo"></div>
+			</li>
+			<li><a class="url-index" href="index.html" target="_blank">心情主页</a></li>
+			<li><a class="url-user" href="user.html" target="_blank">个人中心</a></li>
+		</ul>
+	</div>
+</div>
+<div class="main">
+	<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 menu">
+		<ul>
+			<li><a href="#happy">喜悦</a></li>
+			<li><a href="#anger">愤怒</a></li>
+			<li><a href="#sad">悲伤</a></li>
+			<li><a href="#funk">恐惧</a></li>
+		</ul>
+	</div>
+	<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 music">
+		<div id="happy">
+            <p class="subject">当我们在不合适的场合过于的喜悦，需要调整时：</p>    
+			<div class="music-block">
+				<div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+				</div>
+                <p class="lyrics-message">外面的世界</p>
+                <p class="lyrics-message">刘海华，池一萃</p>
+			</div>
+			<div class="music-block">
+				<div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+				</div>
+                <p class="lyrics-message">安静的午后</p>
+                <p class="lyrics-message">Pianoboy</p>	
+			</div>
+			<div class="music-block">
+				<div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+				</div>
+                <p class="lyrics-message">我要你</p>
+                <p class="lyrics-message">老狼，任素汐</p>
+			</div>		
+		</div>
+		<div id="anger">
+            <p class="subject">人在生气时容易说出伤害他人的话或做出伤害他人的行为，事后肯定会后悔：</p>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">笑看风云</p>
+                <p class="lyrics-message">郑少秋</p>
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play" ></i>
+                </div> 
+                <p class="lyrics-message">后来</p>
+                <p class="lyrics-message">刘若英</p> 
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">飞</p>
+                <p class="lyrics-message">ANU</p>
+            </div>
+        </div>
+		<div id="sad">
+            <p class="subject">持续较强的悲伤不仅使人感到孤独、失望、无助,甚至会损害我们自己的身体：</p>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">Candy Girl</p>
+                <p class="lyrics-message">徐梦圆</p>
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>  
+                <p class="lyrics-message">Le Papillon</p>
+                <p class="lyrics-message">Nicolas Errèra</p>
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">浙江温州江南皮革厂倒闭了</p>
+                <p class="lyrics-message">音乐热搜</p>
+            </div>
+        </div>
+		<div id="funk">
+            <p class="subject">恐惧来源于未知，所以勇敢地去面对它吧：</p>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">Electric Romeo</p>
+                <p class="lyrics-message">Yoav Goren</p>
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>  
+                <p class="lyrics-message">Purple Passion</p>
+                <p class="lyrics-message">Diana Boncheva</p>
+            </div>
+            <div class="music-block">
+                <div class="music-message">
+                    <i class="bg-img-btn fa fa-play"></i>
+                </div>
+                <p class="lyrics-message">国际歌</p>
+                <p class="lyrics-message">唐朝</p>
+            </div>
+        </div>
+	</div>
+	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 lyrics">
+		<div class="dropdown-button"><i class="fa fa-angle-down dropdown-button-icon"></i></div>
+		<div class="dropdown-content">
+            <div class="scroll-frame">
+                <div class="substance"></div>
+            </div>
+        </div>
+	</div>	
+	<div id="player" class="player">
+		<audio id="my-audio" v-on:play="">
+  			<source type="audio/mpeg" src="">
+  			<embed height="40" width="100" src="">
+		</audio>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 broadcast-song-message">
+            <p class="music-name">&nbsp;</p>
+            <p class="singer-name">&nbsp;</p>
+        </div>
+        <div class="col-xs-3 col-sm-1 col-md-1 col-lg-1 player-other-btn">
+            <span class="fa-stack play-order-btn">
+                <i class="fa fa-retweet fa-stack-2x sequential-cycle"></i>
+                <i class="fa fa-stack-1x cycle-once">1</i>
+            </span>
+        </div>         
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 player-btn">
+            <i class="backward-music fa fa-step-backward"></i>
+            <i class="disjunctor-music fa fa-play"></i>
+            <i class="forward-music fa fa-step-forward"></i>
+        </div>
+        <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4 player-other-btn">
+            <i class="fa lyrics-btn">词</i>
+        </div>                
+	</div>
+</div>
+<div class="back-to-top">
+	<a href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+<div class="footer">
+	Copyright © 2018-2019 huangzhenyuzn All rights reserved.
+</div>
+</body>
+</html>

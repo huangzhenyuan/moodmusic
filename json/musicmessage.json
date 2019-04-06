@@ -1,0 +1,68 @@
+var music={
+	"status":"1",
+	"message":"发生错误，未获取歌曲",
+	"happy":[
+		{"music_name":"外面的世界","singer_name":"刘海华;池一萃","url":"music/happy/刘海华;池一萃-外面的世界.mp3"},
+		{"music_name":"安静的午后","singer_name":"Pianoboy","url":"music/happy/Pianoboy-安静的午后.mp3"},
+		{"music_name":"我要你","singer_name":"老狼;任素汐","url":"music/happy/老狼;任素汐-我要你.mp3"},
+		{"music_name":"笑看风云","singer_name":"郑少秋","url":"music/happy/郑少秋-笑看风云.mp3"},
+		{"music_name":"后来","singer_name":"刘若英","url":"music/happy/刘若英-后来.mp3"},
+		{"music_name":"飞","singer_name":"ANU","url":"music/happy/ANU-飞.mp3"},
+		{"music_name":"Candy Girl","singer_name":"徐梦圆","url":"music/happy/徐梦圆-Candy Girl.mp3"},
+		{"music_name":"Le Papillon","singer_name":"Nicolas Errèra","url":"music/happy/Nicolas Errèra-Le Papillon.mp3"},
+		{"music_name":"浙江温州江南皮革厂倒闭了","singer_name":"音乐热搜","url":"music/happy/音乐热搜-浙江温州江南皮革厂倒闭了.mp3"},
+		{"music_name":"Electric Romeo","singer_name":"Yoav Goren","url":"music/happy/Yoav Goren-Electric Romeo.mp3"},
+		{"music_name":"Purple Passion","singer_name":"Diana Boncheva","url":"music/happy/Diana Boncheva-Purple Passion.mp3"},
+		{"music_name":"国际歌","singer_name":"唐朝","url":"music/happy/唐朝-国际歌.mp3"}
+	],
+	"lyrics":[
+		{
+			"url":"music/happy/刘海华;池一萃-外面的世界.mp3",
+			"content":"外面的世界\n作曲/作词：齐秦\n在很久很久以前\n你拥有我 我拥有你\n在很久很久以前\n你离开我去远空翱翔\n外面的世界很精彩\n外面的世界很无奈\n当你觉得外面的世界很精彩\n我会在这里衷心得祝福你\n每当夕阳西沉的时候\n我总是在这里盼望你\n天空中虽然飘着雨\n我依然等待你的归期\n……\n",
+		},
+		{
+			"url":"music/happy/Pianoboy-安静的午后.mp3",
+		    "content":"安静的午后\n纯音乐，请欣赏\n",
+		},
+		{
+			"url":"music/happy/老狼;任素汐-我要你.mp3",
+			"content":"我要你\n作曲/作词：樊冲\n编曲：齐成刚\n我要 你在我身旁\n我要看着你梳妆\n这夜的风儿吹\n吹得心痒痒 我的姑娘\n我在他乡 望着月亮\n送你 美丽的衣裳\n看你 对镜贴花黄\n这夜色太紧张\n时间太漫长 我的姑娘\n你在何方 眼看天亮\n都怪这夜色 撩人的疯狂\n都怪这吉他 弹得太凄凉\n欧 我要唱着歌\n默默把你想 我的姑娘\n你在何方 眼看天亮\n都怪这夜色 撩人的疯狂\n都怪这吉他 弹得太凄凉\n欧 我要唱着歌\n默默把你想我的姑娘\n你在何方 眼看天亮\n天涯呀海角\n觅呀觅知音\n小妹妹唱歌郎奏琴\n郎呀咱们俩是一条心\n都怪这夜色 撩人的疯狂\n都怪这吉他 弹得太凄凉\n欧 我要唱着歌\n默默把你想 我的姑娘\n你在何方 眼看天亮\n我要 你在我身旁\n我要 看着你梳妆\n这夜的风儿吹\n吹得心痒痒 我的姑娘\n我在他乡 望着月亮",
+		},
+		{
+			"url":"music/happy/郑少秋-笑看风云.mp3",
+			"content":"笑看风云\n作曲：徐嘉良\n作词：黄沾\n谁没有一些 刻骨铭心事\n谁能预计后果\n谁没有一些 旧恨心魔\n一点点无心错\n谁没有一些 得不到的梦\n谁人负你 负我多\n谁愿意解释 为了什么\n一笑已经风云过\n活得开心 心不记恨\n为今天欢笑唱首歌\n任心胸吸收新的快乐\n在晚风中 敞开心锁\n谁愿记沧桑 匆匆往事\n谁人是对是错\n从没有解释 为了什么\n一笑看风云过",
+		},
+		{
+			"url":"music/happy/刘若英-后来.mp3",
+		    "content":"后来\n作曲；玉城千春\n作词：施人诚\n编曲：王继康\n后来 我总算学会了如何去爱\n可惜你 早已远去消失在人海\n后来　终于在眼泪中明白\n有些人　一旦错过就不再\n栀子花　白花瓣\n落在我蓝色百褶裙上\n「爱你」　你轻声说\n我低下头　闻见一阵芬芳\n那个永恒的夜晚\n十七岁仲夏\n你吻我的那个夜晚\n让我往后的时光\n每当有感叹\n总想起　当天的星光\n那时候的爱情\n为什么就能那样简单\n而又是为什么\n人年少时\n一定要让深爱的人受伤\n在这相似的深夜里\n你是否一样\n也在静静追悔感伤\n如果当时我们能\n不那么倔强\n现在也\n不那么遗憾\n你都如何回忆我\n带着笑或是很沉默\n这些年来\n有没有人能让你不寂寞\n永远不会再重来\n有一个男孩\n爱着那个女孩",
+		},
+		{
+			"url":"music/happy/ANU-飞.mp3",
+		    "content":"飞\n作词/作曲：ANU\nཚིག ཨ་ནུ་རིང་ལུགས།\nདབྱངས ཨ་ནུ་རིང་ལུགས།\nགཞས་པ ཨ་ནུ་རིང་ལུགས།\nའཕུར\nའཕུར་འདོད་དུས།\nའཕུར\nརང་དབང་གི་རིང་ལུགས་ལ་དགའ་ན།\nད་ནས་འཕུར་ཡ་་་་་\nད་ནས་འཕུར་ཡ་་་་་\nའཕུར\nརང་གི་རྣམ་ཤེས་ངོ་མ་དེ་འཚོལ་བསམ་ན་འཕུར\nརང་གི་ཆེས་ཐོག་མའི་རྨི་ལམ་དེ་འཚོལ་བསམ་ན་འཕུར།\nའཕུར་་་་\nའཕུར་་ཡ་་་་་་་\nམ་འཕུར་ན་མི་ཚེ་ཚར་རྒྱུ་རེད།\nམ་འཕུར་ན་རེ་བ་བརླག་རྒྱུ་རེད།\nམ་འཕུར་ན་མི་ཚེ་ཚར་རྒྱུ་རེད།\nམ་འཕུར་ན་རེ་བ་བརླག་རྒྱུ་རེད།\nམ་འཕུར་ན་མི་ཚེ་ཚར་རྒྱུ་རེད།\nམ་འཕུར་ན་རེ་བ་བརླག་རྒྱུ་རེད།\nདེ་ནས་རང་དབང་གི་གཤོག་པ་དེ་བརྐྱངས་ནས།\nདེ་ནས་ངོ་མཚར་གྱི་རྨི་ལམ་དེ་ཁྱེར་ནས།\nའཁོར་བའི་རྒྱ་མཚོ་ནས་བརྒལ་ཏེ་བདེ་སྐྱིད་ཀྱི་ཞིང་ཁམས་ལ་འཕུར།\nདེ་ནས་ཆེས་ཐོག་མའི་རྣམ་ཤེས་དེ་འཚོལ་ལ་འཕུར།\n……\n",
+		},
+		{
+			"url":"music/happy/徐梦圆-Candy Girl.mp3",
+		    "content":"Candy Girl\n纯音乐，请欣赏\n",
+		},
+		{
+			"url":"music/happy/Nicolas Errèra-Le Papillon.mp3",
+		    "content":"Le Papillon\n- Pourquoi les poules\npondent des œufs?\n- Pour que les œufs\nfassent des poules.\n- Pourquoi les amoureux\ns'embrassent?\n- C'est pour que les\n pigeons roucoulent.\n- Pourquoi les jolie\n fleurs se fanent?\n- Parce que ça fait \npartie du charme.\n- Pourquoi le Diable\n et le Bon Dieu?\n- C´est pour faire \nparler les curieux.\n- Pourquoi le feu\n brûle le bois?\n- C'est pour bien \nréchauffer nos corps.\n- Pourquoi la mer se retire?\n- C'est pour qu'on\n lui dise \"encore\".\n- Pourquoi le \nsoleil disparaît?\n- Pour l'autre partie\n du décor.\n- Pourquoi le Diable \net le Bon Dieu?\n- C´est pour faire \nparler les curieux.\n- Pourquoi le loup mange \nl'agneau?\n- Parce qu'il faut\n bien se nourrir.\n- Parce que rien \nne sert de courir.\n- Pour nous faire \ncroire au Père Noël.\n- Pourquoi le Diable \net le Bon Dieu?\n- C´est pour faire \nparler les curieux.\n- Ça t'a plu le petit voyage?\n- Ah! Oui, beaucoup.\n- On a vu de belles\n choses, hein?\n- J'aurai bien voulu \nvoir des sauterelles.\n- Des sauterelles?\n Pourquoi des sauterelles?\n- Et des libellules aussi.\n- Mmmh! La prochaine fois,\n d'accord!\n- D'accord. Je peux te \ndemander quelque chose?\n- Quoi, encore?\n- On continue mais \ncette fois-ci,\n c'est toi qui chante.\n- Pas question.\n- S'il te plaît!\n- Allez! C'est le \ndernier couplet.\n- Tu crois pas \nque tu pousses\n un peu le bouchon...\n- Pourquoi notre cœur\n fait tic-tac?\n- Parce que la pluie\n fait flic-flac.\n- Pourquoi le temps\n passe si vite?\n- Parce que le vent\n lui rend visite.\n- Pourquoi tu me prends\n par la main?\n- Parce qu'avec toi,\n je suis bien.\n- Pourquoi le Diable\n et le Bon Dieu?\n- C'est pour faire \nparler les curieux.",
+		},
+		{
+			"url":"music/happy/音乐热搜-浙江温州江南皮革厂倒闭了.mp3",
+		    "content":"浙江温州江南皮革厂倒闭了\n浙江温州浙江温州\n江南皮革厂倒闭了\n王八蛋王八蛋黄鹤老板\n吃喝嫖赌吃喝嫖赌\n欠下了欠下了3.5个亿\n带着他的小姨子跑了\n我们没有没有没有办法办法\n拿着钱包抵工资工资\n原价都是100多200多300多的钱包\n统统20块\n20块20块统统20块\n统统统统统统20块\n黄鹤王八蛋王八蛋黄鹤\n你不是你不是你不是人\n100多200多300多的钱包\n统统20块统统20块\n黄鹤王八蛋王八蛋黄鹤\n你不是你不是你不是人\n我们辛辛苦苦干了\n辛辛苦苦给你给你干了大半年\n你你你不发不发工资工资\n你还我还我血汗钱\n还我血汗钱 \n",
+		},
+		{
+			"url":"music/happy/Yoav Goren-Electric Romeo.mp3",
+		    "content":"Electric Romeo\n纯音乐，请欣赏\n",
+		},
+		{
+			"url":"music/happy/Diana Boncheva-Purple Passion.mp3",
+		    "content":"Purple Passion\n纯音乐，请欣赏\n",
+		},
+		{
+			"url":"music/happy/唐朝-国际歌.mp3",
+		    "content":"国际歌\n作词：Pottier，萧三\n作曲：Degeyter\n编曲：唐朝起来\n饥寒交迫的奴隶\n起来 全世界受苦的人\n满腔的热血已经沸腾\n要为真理而斗争\n旧世界打个落花流水\n奴隶们起来 起来\n不要说我们一无所有\n我们要做天下的主人\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n从来就没有什麽救世主\n也不靠神仙皇帝\n要创造人类的幸福\n全靠我们自己\n我们要夺回劳动果实\n让思想冲破牢笼\n快把那炉火烧得通红\n趁热打铁才能成功\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n最可恨那些毒蛇猛兽\n吃尽了我们的血肉\n一旦把他们消灭干净\n鲜红的太阳照遍全球\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现 \n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n英特纳雄耐尔\n就一定要实现",
+		}
+	]
+}

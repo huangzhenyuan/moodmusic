@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>心情音乐</title>
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="黄振远" />
+    <meta name="Copyright" content="黄振远" />
+    <meta name="keywords" content="喜悦,愤怒,悲伤,恐惧" />
+    <meta name="description" content="这是一个能调节喜悦,愤怒,悲伤,恐惧情绪的音乐网站" />
+    <link rel="Shortcut Icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="css/user.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script type="text/javascript" src="js/user.js" ></script>
+    <script type="text/javascript" src="json/musicmessage.json" ></script>
+    <script type="text/javascript" src="js/clamp.min.js" ></script>
+</head>
+<body>
+<div class="header">
+	<div class="nav">
+		<ul>
+			<li>
+				<div><img src="img/logo.png" alt="logo"></div>
+			</li>
+			<li><a class="url-index" href="index.html" target="_blank">心情主页</a></li>
+			<li><a class="url-user" href="user.html" target="_blank">个人中心</a></li>
+		</ul>
+	</div>
+</div>
+<div class="main">
+    <div class="Login">
+        <ul>
+            <li class="register-pagingMenu">注册</li>
+            <li class="entry-pagingMenu">登录</li>
+        </ul>
+        <div>
+            <form class="register">
+                <label>
+                    <span>账号</span> 
+                    <input class="new-user" type="text" autofocus>
+                </label><br>
+                <label>
+                    <span>密码</span>
+                    <input class="new-pwd" type="password">
+                </label><br>
+                <input class="register-menu" type="submit" value="注册" disabled="disabled">
+                <p>*密码由字母数字和下划线组<br>成，不能为纯数字，至少6个</p>
+            </form>
+            <form class="entry">
+                <label>
+                    <span>账号</span> 
+                    <input class="user" type="text" autofocus>
+                </label><br>
+                <label>
+                    <span>密码</span>
+                    <input class="pwd" type="password">
+                </label><br>
+                <input class="entry-menu" type="submit" value="登录" disabled="disabled">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+	Copyright © 2018 huangzhenyuzn All rights reserved.
+</div>
+</body>
+</html>
