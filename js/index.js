@@ -65,9 +65,10 @@ window.onload=function(){
     function menuLocation(){
         documentScrollTop=document.documentElement.scrollTop||document.body.scrollTop;
         if(documentScrollTop>35){
+
             menu.style.top = documentScrollTop+"px";                    
         }else{
-            menu.style.top =65+"px";
+            menu.style.top =75+"px";
         }        
     }
     // menuLocation();
