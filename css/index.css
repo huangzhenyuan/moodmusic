@@ -143,7 +143,7 @@ article,aside,dialog,footer,header,section,nav,figure,menu{display:block}
     padding-bottom: 100%;
 }
 .music-message i{    
-    color: rgba(128, 128, 128,0.8);
+    color: rgba(128, 128, 128,0.83);
 }       
 .music-block p{
     margin: 0 15px;

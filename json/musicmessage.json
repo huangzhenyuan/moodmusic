@@ -13,7 +13,7 @@ var music={
 		{"music_name":"浙江温州江南皮革厂倒闭了","singer_name":"音乐热搜","url":"music/happy/音乐热搜-浙江温州江南皮革厂倒闭了.mp3"},
 		{"music_name":"Electric Romeo","singer_name":"Yoav Goren","url":"music/happy/Yoav Goren-Electric Romeo.mp3"},
 		{"music_name":"Purple Passion","singer_name":"Diana Boncheva","url":"music/happy/Diana Boncheva-Purple Passion.mp3"},
-		{"music_name":"国际歌","singer_name":"唐朝","url":"music/happy/唐朝-国际歌.mp3"}
+		{"music_name":"Victory","singer_name":"Two Steps From Hell","url":"music/happy/Two Steps From Hell-Victory.mp3"}
 	],
 	"lyrics":[
 		{
@@ -61,8 +61,8 @@ var music={
 		    "content":"Purple Passion\n纯音乐，请欣赏\n",
 		},
 		{
-			"url":"music/happy/唐朝-国际歌.mp3",
-		    "content":"国际歌\n作词：Pottier，萧三\n作曲：Degeyter\n编曲：唐朝起来\n饥寒交迫的奴隶\n起来 全世界受苦的人\n满腔的热血已经沸腾\n要为真理而斗争\n旧世界打个落花流水\n奴隶们起来 起来\n不要说我们一无所有\n我们要做天下的主人\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n从来就没有什麽救世主\n也不靠神仙皇帝\n要创造人类的幸福\n全靠我们自己\n我们要夺回劳动果实\n让思想冲破牢笼\n快把那炉火烧得通红\n趁热打铁才能成功\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n最可恨那些毒蛇猛兽\n吃尽了我们的血肉\n一旦把他们消灭干净\n鲜红的太阳照遍全球\n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现 \n这是最后的斗争\n团结起来到明天\n英特纳雄耐尔\n就一定要实现\n英特纳雄耐尔\n就一定要实现",
+			"url":"music/happy/Two Steps From Hell-Victory.mp3",
+		    "content":"Victory\n纯音乐，请欣赏\n",
 		}
 	]
 }

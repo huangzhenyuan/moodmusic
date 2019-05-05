@@ -169,7 +169,7 @@ window.onload=function(){
             for(var j=0;j<bgImgBtn.length;j++){
                 if(bgImgBtn[j]!=target){
                     bgImgBtn[j].className="bg-img-btn fa fa-play";
-                    bgImgBtn[j].style.color="rgba(128, 128, 128,0.5)";
+                    bgImgBtn[j].style.color="rgba(128, 128, 128,0.83)";
                 }
             }
             for(var i=0;i<bgImgBtn.length;i++){
@@ -183,7 +183,7 @@ window.onload=function(){
             },30);            
         }else{
             target.className="bg-img-btn fa fa-play";
-            target.style.color="rgba(128, 128, 128,0.5)";                    
+            target.style.color="rgba(128, 128, 128,0.83)";                    
             soundVolumeMethod(200);                       
         }                    
     }
@@ -217,7 +217,7 @@ window.onload=function(){
             this.className="disjunctor-music fa fa-play";
             for(var i=0;i<bgImgBtn.length;i++){
                 bgImgBtn[i].className="bg-img-btn fa fa-play";
-                bgImgBtn[i].style.color="rgba(128, 128, 128,0.5)";
+                bgImgBtn[i].style.color="rgba(128, 128, 128,0.83)";
             };
             soundVolumeMethod(200);
         }                 
@@ -248,7 +248,7 @@ window.onload=function(){
             }
             for(var j=0;j<bgImgBtn.length;j++){
                 bgImgBtn[j].className="bg-img-btn fa fa-play";
-                bgImgBtn[j].style.color="rgba(128, 128, 128,0.5)";
+                bgImgBtn[j].style.color="rgba(128, 128, 128,0.83)";
                         
             }
             setTimeout(function(){
@@ -275,7 +275,7 @@ window.onload=function(){
         },30);
         for(var i=0;i<bgImgBtn.length;i++){
             bgImgBtn[i].className="bg-img-btn fa fa-play";
-            bgImgBtn[i].style.color="rgba(128, 128, 128,0.5)";
+            bgImgBtn[i].style.color="rgba(128, 128, 128,0.83)";
         }
     };
 
