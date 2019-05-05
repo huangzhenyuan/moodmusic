@@ -65,10 +65,9 @@ window.onload=function(){
     function menuLocation(){
         documentScrollTop=document.documentElement.scrollTop||document.body.scrollTop;
         if(documentScrollTop>35){
-
-            menu.style.top = documentScrollTop+"px";                    
+            menu.style.top = 0+"px";                    
         }else{
-            menu.style.top =75+"px";
+            menu.style.top =65+"px";
         }        
     }
     // menuLocation();
@@ -81,7 +80,7 @@ window.onload=function(){
             }else{
                 backToTop.style.display="none";
             }
-            menu.style.top = documentScrollTop+"px";                    
+            menu.style.top = 0+"px";                    
         }else{
             menu.style.top =65+"px";
             backToTop.style.display="none";

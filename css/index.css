@@ -70,7 +70,7 @@ article,aside,dialog,footer,header,section,nav,figure,menu{display:block}
 .main{overflow:hidden;clear: both;}
 .menu{
     float: left;
-    position: absolute;
+    position: fixed;
     z-index: 99
 }
 .menu li{
