@@ -267,7 +267,6 @@ article,aside,dialog,footer,header,section,nav,figure,menu{display:block}
 .footer{
     width: 100%;
     height: 45px;
-    /*background: rgb(129,194,214);*/
     background: rgb(224,245,245);
     text-align: center;
     line-height: 45px;
@@ -433,7 +432,6 @@ article,aside,dialog,footer,header,section,nav,figure,menu{display:block}
     .back-to-top{
     	display: none;
     }
-
 }
 /*平板电脑*/
 @media (min-width: 481px){
@@ -526,7 +524,7 @@ article,aside,dialog,footer,header,section,nav,figure,menu{display:block}
         padding-bottom: 2.3%;
     }
     .rotation-box{
-/*        margin-top: 15%;*/
+
     }
     .music{
     	position: absolute;
