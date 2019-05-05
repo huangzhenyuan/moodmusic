@@ -32,7 +32,7 @@ p{
 }
 .header{
     height: 35px;
-    background: rgb(129,194,214);
+    background: rgb(224,245,245);
     line-height: 12px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.12);
     color: #ffffff;
@@ -53,15 +53,15 @@ p{
 .nav li a:hover{
     margin: 0 15px;
     color: #fff;
-    background:rgb(129,146,214);
+    background:rgb(136,217,217);
     text-align: center;
 }
 .nav li div{
-    border: 5px rgb(255, 178, 102) double;
-    padding: 7px;
-    background: rgb(159, 208, 224);
-    width: 35px;
-    height: 35px;
+    border: 2px rgb(136,217,217) solid;
+    padding: 6px;
+    background: rgb(224,245,245);
+    width: 43px;
+    height: 43px
 }
 img{
     width: 100%;
@@ -112,7 +112,7 @@ p{
 .footer{
     width: 100%;
     height: 45px;
-    background: rgb(129,194,214);
+    background: rgb(224,245,245);
     text-align: center;
     line-height: 45px;
     position:fixed;
@@ -120,18 +120,53 @@ p{
     z-index:999;
 }
 @media (max-width: 480px) {
+    body{
+        font-size: 13px;
+    }
+    .header{
+        min-height: 57px;
+    }
+    .header:before{
+        padding-bottom: 18%;
+    }
+    .nav{line-height: 450%}
+    .nav li{
+        margin: 0 5%;
+    }
     .nav li a:hover{
         margin: 0;
         color: #2d374b;
-        background:rgba(129,194,214,1);
+        background: rgb(224,245,245);
+        text-align: center;
+    }
+    .nav li div{
+        display: none;
+    }   
+}    
+/*横屏手机*/
+@media(min-width: 481px) and (max-height: 480px){
+    body{
+        font-size: 13px;
+    }
+    .header:before{
+        padding-bottom: 6.8%;
+    }
+    .nav li a:hover{
+        margin: 0;
+        color: #2d374b;
+        background: rgb(136,217,217);
         text-align: center;
     }
 }
-@media (max-width: 767px) and (min-width: 481px){
-    .nav li a:hover{
-        margin: 0;
-        color: #2d374b;
-        background:rgba(129,194,214,1);
-        text-align: center;
-    }        
+/*平板电脑*/
+@media (min-width: 481px){
+    .header:before{
+        padding-bottom: 3.8%;
+    }
+}    
+/*较大的显示屏*/
+@media (min-width: 1200px) {
+    .header:before{
+        padding-bottom: 2.3%;
+    }
 }
